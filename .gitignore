@@ -1,0 +1,8 @@
+/node_modules
+/test
+/.idea
+*-compiled.js
+*-compiled.js.map
+npm-debug.log
+.DS_Store
+.idea/
