@@ -1,0 +1,67 @@
+$main-bg:#0e1935;
+.anticon{
+  color:#587eeb
+}
+.ant-layout-aside{
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+  .ant-layout-sider {
+    background: #0e1935;
+    position: absolute;
+    z-index: 101;
+    padding-bottom: 24px;
+    height: 100%;
+    .ant-layout-logo {
+      height: 61px;
+      line-height: 61px;
+      background: #333333;
+      text-align: center;
+      font-size:20px;
+      font-weight: bold;
+      a{
+        color: white;
+      }
+      a:hover{
+        color: white;
+        text-decoration: underline;
+      }
+    }
+    > .ant-menu {
+      background: $main-bg;
+      border-right:none;
+      >.ant-menu-item-divider{
+        background-color: #091430;
+        height:3px
+      }
+    }
+    .ant-menu-submenu-title{
+      color:white;
+      font-size:14px !important;
+
+    }
+    .ant-menu-submenu-title:hover{
+      color:white;
+      background: #0044bb;
+      font-size:14px !important;
+    }
+    .ant-menu-inline>.ant-menu-item{
+      line-height:40px;
+      height: 40px;
+      background:#122043;
+      font-size:14px !important;
+      color: white;
+    }
+    .ant-menu-inline>.ant-menu-item:hover{
+      background:#333333;
+    }
+    .ant-menu-inline>.ant-menu-item-selected{
+      background:#1e90ff;
+    }
+    .ant-menu-inline>.ant-menu-item-divider{
+      background-color: #091430;
+      height:2px;
+      margin:0;
+    }
+  }
+}
